@@ -1,9 +1,11 @@
 import { useState } from "react";
+import Form from "./components/Form";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Calculadora IMC</h1>
+      <Form />
     </div>
   );
 };
